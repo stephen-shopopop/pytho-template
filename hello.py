@@ -2,6 +2,7 @@
 
 '''
 Program to print "Hello World"
+python hello.py
 '''
 
 # Print
