@@ -26,6 +26,8 @@ deps: ## install deps
 
 env: ## Env
 	@echo $(VERSION)
+  @echo $(PYCMD) --version
+  @echo $(PYCMD) -m pip --version
 	@echo "--------"
 	$(PYCMD) -m pip list
 
