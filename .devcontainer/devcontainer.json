@@ -38,7 +38,8 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-python.vscode-pylance",
-				"mutantdino.resourcemonitor"
+				"mutantdino.resourcemonitor",
+				"pamaron.pytest-runner"
 			]
 		}
 	},
