@@ -31,7 +31,6 @@ env: ## Env
 	@echo "--------"
 	$(PYCMD) -m pip list
 
-# tools
 tools: ## tools
 	$(PYCMD) -m pip freeze > requirements.txt
 
@@ -41,6 +40,6 @@ test:	## tests
 run: ## run
 	$(PYCMD) hello.py
 
-release:
+release: ## release
 	git tag $(VERSION)
 	git push --tags
