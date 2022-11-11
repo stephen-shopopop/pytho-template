@@ -14,3 +14,5 @@ python hello.py
 
 - [pip](https://pip.pypa.io/en/stable/user_guide/)
 - [PyTest](https://docs.pytest.org/en/7.2.x/)
+- [pre-commit](https://pre-commit.com)
+- [pyLint](https://pylint.pycqa.org/en/latest/user_guide/installation/index.html)
