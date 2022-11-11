@@ -16,3 +16,4 @@ python hello.py
 - [PyTest](https://docs.pytest.org/en/7.2.x/)
 - [pre-commit](https://pre-commit.com)
 - [pyLint](https://pylint.pycqa.org/en/latest/user_guide/installation/index.html)
+- [jupiter notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
