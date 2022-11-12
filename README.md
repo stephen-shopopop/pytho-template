@@ -17,3 +17,4 @@ python hello.py
 - [pre-commit](https://pre-commit.com)
 - [pyLint](https://pylint.pycqa.org/en/latest/user_guide/installation/index.html)
 - [jupiter notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+- [matPlotLib](https://matplotlib.org)
