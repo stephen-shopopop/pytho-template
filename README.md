@@ -18,3 +18,4 @@ python hello.py
 - [pyLint](https://pylint.pycqa.org/en/latest/user_guide/installation/index.html)
 - [jupiter notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 - [matPlotLib](https://matplotlib.org)
+- [Apprendre python](https://python.doctor)
