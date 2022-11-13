@@ -7,7 +7,7 @@ def inc(value: int):
     """
     increment
     """
-    return x + 1
+    return value + 1
 
 
 def test_answer():
