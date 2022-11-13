@@ -1,5 +1,5 @@
 # content of test_sample.py
-def inc(x):
+def inc(value: int):
     """
     increment
     """
