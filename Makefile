@@ -7,6 +7,7 @@ PY_VERSION ?= $(shell python --version)
 PYCMD = python
 PIP = pip3
 PYTEST = pytest
+PYLINT = pylint
 
 .PHONY: help deps tools tests all release
 
@@ -19,7 +20,8 @@ help:
 	@echo 'targets:'
 	@grep -E '^[a-z.A-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
-all: ## test
+check: ## check
+	make lint
 	make tests
 
 deps: ## install deps
@@ -33,6 +35,9 @@ env: ## Env
 
 tools: ## tools
 	@$(PYCMD) -m pip freeze > requirements.txt
+
+lint: ## linter
+	@$(PYLINT) **/*.py
 
 tests:	## tests
 	@$(PYTEST)

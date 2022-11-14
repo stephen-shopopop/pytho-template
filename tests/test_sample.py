@@ -1,18 +1,25 @@
 '''
-unit tests
+unit test sample
 '''
 
-# content of test_sample.py
+
 def inc(value: int):
-    """
-    increment
-    """
+    '''
+    increment value
+
+    Args:
+        value (int): _description_
+
+    Returns:
+        int: _description_
+    '''
     return value + 1
 
 
-def test_answer():
-    """
+def test_inc():
+    '''
+    test_answer
     >>> inc(3)
     >>> 4
-    """
+    '''
     assert inc(3) == 4
