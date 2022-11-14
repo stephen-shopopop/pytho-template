@@ -16,5 +16,10 @@
     "tests"
   ],
   "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true
+  "python.testing.pytestEnabled": true,
+  "autoDocstring.quoteStyle": "'''",
+  "autoDocstring.includeName": false,
+  "autoDocstring.startOnNewLine": true,
+  "autoDocstring.guessTypes": true,
+  "autoDocstring.generateDocstringOnEnter": true
 }
